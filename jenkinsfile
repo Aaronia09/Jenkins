@@ -4,7 +4,7 @@ pipeline {
     stage('GitHub Jenkins Ant Docker Build') {
       steps {
         git 'https://github.com/Aaronia09/Jenkins.git'
-        sh 'ant clean compile test package war'
+        sh 'ls'
       }
     }
   }
